@@ -17,7 +17,7 @@ class DataSourceFactory {
     }
     //this.dbConnection = new Sequelize('EC_NOMINATION', 'root', 'root');
     this.dbConnection = new Sequelize('heroku_f5d01a537b411d3', 'b8dc7e945d8941', '4d3ac423' ,{
-      host: "us-cdbr-iron-east-03.cleardb.net",
+      host: 'us-cdbr-iron-east-03.cleardb.net',
     });
   }
 
